@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KenTest03
+  
+  description: KenTest03
+  
+  annotations:
+    github.com/project-slug: defra-adp-sandpit/KenTest03
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://github.com/defra-adp-sandpit/KenTest03
+      title: GitHub Repository
+      icon: github
+
+spec:
+  type: frontend
+  lifecycle: alpha
+  owner: "group:default/adp"
+  
